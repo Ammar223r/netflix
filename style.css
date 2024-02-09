@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;    
+    box-sizing: border-box;
+    /* background-color: rgb(0 0 0 1); */
+
+
+
+}
+/* بدايه الخلفيه شفافه */
+.home {
+    height: 85vh;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%) ,url('./imeges/header-image\ .png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    border-bottom: 8px solid rgb(55, 54, 54);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 110px;
+}
+nav img {
+    width: 14%;
+    margin: 25px 30px;
+}
+nav select {
+    background-color: rgb(20 15 15);
+    color: white;
+    padding: 5px 20px;
+    padding-bottom: 4px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb (102 ,102 ,101 ,100%);
+    font-size: 13px;
+}
+nav button {
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 6px 10px;
+    background-color: rgb(229 9 20);
+    color: #fff;
+    margin-left: 14px;
+    cursor: pointer;
+}
+nav button:hover {
+    background-color: rgb(194, 6, 16);
+    transition: 0.4s ease;
+
+}
+.home .content {
+    text-align: center;
+    position: absolute; 
+    top: 40%;
+    left: 17%;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+p ,
+.p1 {
+    font-size: 18px;
+}
+p {
+    margin-bottom: 20px;
+}
+.p1 {
+    margin-bottom: 15px;
+}
+.email {
+    width: 47%;
+    /* padding: 10px 0; */
+    background-color: rgba(19, 23, 25, 0.463) ;
+    border: 1px solid #6d6c6c;
+    border-radius: 3px;
+    /* outline: none; */
+    padding: 15px 17px;
+    margin-right: 3px;
+}
+.email::placeholder {
+    color: #c8c4c4;
+}
+.email:focus {
+    color: #fff;
+    /* border: 2px solid #fff; */
+    outline-offset: 0.125rem;
+    outline: #fff solid 0.5px;
+}
+.email:focus::placeholder {
+    font-size: 10px;
+    transition: 0.4s ease;
+    margin-bottom: 10px;
+    transform: translateX(-10px);
+    transform: translateY(-15px);
+}
+.get-started {
+    border: 0;
+    border-radius: 3px;
+    padding: 13px 27px 13px 17px ;
+    font-size: 17px;
+    background-color: rgb(229 9 20);
+    color: #fff;
+    outline: none;
+}
+.get-started:hover {
+    background-color: rgb(194, 6, 16);
+    transition: 0.4s ease;
+
+}
+.section {
+    width: 100%;
+    height: 100vh;
+    background-color: #1a1818;
+}
